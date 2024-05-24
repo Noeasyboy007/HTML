@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Complex Form</title>
+</head>
+
+<body>
+    <h1><b>Complex Form</b></h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone">
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+
+            <label for="gender">Gender:</label>
+
+            <label for="radio1">Male</label>
+            <input type="radio" name="radio" id="radio1">
+
+            <label for="radio2">Female</label>
+            <input type="radio" name="radio" id="radio2">
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Adress</legend>
+            <label for="country">Country</label>
+
+            <select name="country" id="country">
+                <option value="ind">India</option>
+                <option value="us">United of State</option>
+                <option value="uk">United of Kingdom</option>
+                <option value="rassia">Rassia</option>
+                <option value="japan">Japan</option>
+                <option value="korea">Korea</option>
+            </select>
+
+            <label for="city">City:</label>
+            <input type="text" id="city">
+
+            <label for="State">State:</label>
+            <input type="text" id="State">
+
+            <label for="code">Zip Code:</label>
+            <input type="text" id="code">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+
+            <label for="comm">Comment</label>
+
+            <textarea name="comment" id="comm" placeholder="Enter the  text  here..." cols="30" rows="10"></textarea>
+
+            <label for="conditon"> I agree of the terms of servvice</label>
+            <input type="checkbox" id="conditon">
+        </fieldset>
+
+        <button>Submit</button>
+
+    </form>
+</body>
+
+</html>
